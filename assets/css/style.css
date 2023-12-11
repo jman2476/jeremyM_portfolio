@@ -4,8 +4,11 @@
 }
 
 
-a{
-
+a {
+    color: antiquewhite;
+    background-color: #b00b1e;
+    text-decoration: none;
+    padding: 2px 4px 2px;
 }
 
 header {
