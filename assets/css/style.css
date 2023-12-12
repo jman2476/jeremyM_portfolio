@@ -19,3 +19,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
+
+img {
+    max-width: 50%;
+}
