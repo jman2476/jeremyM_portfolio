@@ -11,44 +11,53 @@
             <h1>Jeremy's Bakery</h1>
             <nav>
                 <a href="#AboutMe">About Me</a>
-                <a href="#Horiseon">Horiseon page</a>
+                <a href="#horiseon">Horiseon page</a>
                 <a href="#chess-board">Chess board</a>
                 <a href="#tic-tac-toe">Tic Tac Toe</a>
+                <a href="#contactMe">Tic Tac Toe</a>
             </nav>
         </header>
-        <figure>
+        <figure class="row">
             <h2 id="AboutMe">About Me</h2>
-            <img src="./assets/images/IMG_6562.jpg" alt="Jeremy taking a moment to chalk his hands while bouldering">
+            <img class='me' src="./assets/images/IMG_6562.jpg" alt="Jeremy taking a moment to chalk his hands while bouldering">
+            <p class='me'>I like my coding the same way I like my pancakes: full stack. I'm currently training to be a full stack developer, and I'm coming from a background in climbing and physics. My passions include touching rocks, wrestling pebbles, baking bread and cracking dad jokes.</p>
         </figure>
-        <main>  
+        <main class="row">  
             <!-- Include projects here -->
-            <section id="horiseon">
+            <section id="horiseon" class="card">
                 <h3>First item</h3>
+                <p>First item</p>
                 <img src="https://api.lorem.space/image/ai?w=150&h=150"  />
             </section>
 
-            <section id="chess-board">
+            <section id="chess-board" class="card">
                 <h3>Second item</h3>
                 <img src="https://api.lorem.space/image/calendar?w=150&h=150"  />
             </section>
 
-            <section id="tic-tac-toe">
+            <section id="tic-tac-toe" class="card">
                 <h3>Third item</h3>
                 <img src="https://api.lorem.space/image/crm?w=150&h=150"  />
             </section>
 
-            <section id="tic-tac-toe">
+            <section id="tic-tac-toe" class="card">
                 <h3>Fourth item</h3>
                 <img src="https://api.lorem.space/image/fashion?w=150&h=150"  />
             </section>
 
-            <section id="tic-tac-toe">
-                <h3>Fifth item</h3>
-                <img src="https://api.lorem.space/image/album?w=150&h=150"  />
+            <section id="contactMe" class="card">
+                <form action="" class="column">
+                    <h2>Contact Me</h2>
+                    <input type="text" placeholder="Enter your coordinates">
+                    <input type="email" placeholder="Enter your email address">
+                    <textarea cols="30" rows="10" placeholder="Enter your message"></textarea>
+                    <button>Submit</button>
+                </form>
             </section>
         </main>
-        <footer>
-
+        <footer class="row">
+            <p>&copy; 2023</p>
+            <p>Designed by Jeremy McKeegan and his cat, Hank</p>
         </footer>
     </body>
 
