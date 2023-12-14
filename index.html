@@ -2,64 +2,90 @@
 
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Jeremy McKeegan's Portfolio</title>
-    </head>
-    <body>
-        <header>
-            <h1>Jeremy's Bakery</h1>
-            <nav>
-                <a href="#AboutMe">About Me</a>
-                <a href="#horiseon">Horiseon page</a>
-                <a href="#chess-board">Chess board</a>
-                <a href="#tic-tac-toe">Tic Tac Toe</a>
-                <a href="#contactMe">Tic Tac Toe</a>
-            </nav>
-        </header>
-        <figure class="row">
-            <h2 id="AboutMe">About Me</h2>
-            <img class='me' src="./assets/images/IMG_6562.jpg" alt="Jeremy taking a moment to chalk his hands while bouldering">
-            <p class='me'>I like my coding the same way I like my pancakes: full stack. I'm currently training to be a full stack developer, and I'm coming from a background in climbing and physics. My passions include touching rocks, wrestling pebbles, baking bread and cracking dad jokes.</p>
-        </figure>
-        <main class="row">  
-            <!-- Include projects here -->
-            <section id="horiseon" class="card">
-                <h3>First item</h3>
-                <p>First item</p>
-                <img src="https://api.lorem.space/image/ai?w=150&h=150"  />
-            </section>
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Jeremy McKeegan's Portfolio</title>
+</head>
 
-            <section id="chess-board" class="card">
-                <h3>Second item</h3>
-                <img src="https://api.lorem.space/image/calendar?w=150&h=150"  />
-            </section>
+<body>
+    <header>
+        <h1>Jeremy's Bakery</h1>
+        <nav>
+            <a href="#AboutMe">About Me</a>
+            <a href="#first-item">Artificial Intelligence</a>
+            <a href="#calendar">Calendar</a>
+            <a href="#book">Library</a>
+            <a href="#fashion">Fashion</a>
+            <a href="#contactMe">Contact Me</a>
+        </nav>
+    </header>
+    <figure class="row">
+        <h2 id="AboutMe">Who is Jeremy McKeegan?</h2>
+        <img class='me' src="./assets/images/IMG_6562.jpg"
+            alt="Jeremy taking a moment to chalk his hands while bouldering">
+        <p class='me'>I like my coding the same way I like my pancakes: full stack. I'm currently training to be a full
+            stack developer, and I'm coming from a background in climbing and physics. My passions include touching
+            rocks, wrestling pebbles, baking bread and cracking dad jokes.</p>
+    </figure>
+    <main class="row">
+        <!-- Include projects here -->
 
-            <section id="tic-tac-toe" class="card">
-                <h3>Third item</h3>
-                <img src="https://api.lorem.space/image/crm?w=150&h=150"  />
-            </section>
+        <section id="first-item" class="card">
+            <h3>Artificial Intelligence</h3>
+            <!-- <p>First item</p> -->
+            <a href="https://github.com">
+                <img src="https://api.lorem.space/image/ai?w=150&h=150" />
+            </a>
+            <!-- <a href="https://github.com">Click here for more!</a> -->
+        </section>
 
-            <section id="tic-tac-toe" class="card">
-                <h3>Fourth item</h3>
-                <img src="https://api.lorem.space/image/fashion?w=150&h=150"  />
-            </section>
+        <section id="calendar" class="card">
+            <h3>Calendar</h3>
+            <a href="https://github.com">
+                <img src="https://api.lorem.space/image/calendar?w=150&h=150" />
+            </a>
+            <!-- <a href="#">Click here for more!</a> -->
+        </section>
 
-            <section id="contactMe" class="card">
-                <form action="" class="column">
-                    <h2>Contact Me</h2>
-                    <input type="text" placeholder="Enter your coordinates">
-                    <input type="email" placeholder="Enter your email address">
-                    <textarea cols="30" rows="10" placeholder="Enter your message"></textarea>
-                    <button>Submit</button>
-                </form>
-            </section>
-        </main>
-        <footer class="row">
-            <p>&copy; 2023</p>
-            <p>Designed by Jeremy McKeegan and his cat, Hank</p>
-        </footer>
-    </body>
+
+
+        <section id="book" class="card">
+            <h3>Library</h3>
+            <a href="https://github.com">
+                <img src="https://api.lorem.space/image/book?w=150&h=150" />
+            </a>
+            <!-- <a href="#">Click here for more!</a> -->
+        </section>
+
+
+
+        <section id="fashion" class="card">
+            <h3>Fashion</h3>
+            <a href="https://github.com">
+                <img src="https://api.lorem.space/image/fashion?w=150&h=150" />
+            </a>
+            <!-- <a href="#">Click here for more!</a> -->
+        </section>
+
+
+        <section id="contactMe" class="card">
+            <form action="" class="column">
+                <h2>Contact Me</h2>
+                <input type="text" placeholder="Enter your coordinates">
+                <input type="email" placeholder="Enter your email address">
+                <textarea cols="30" rows="10" placeholder="Enter your message"></textarea>
+                <button>Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="row">
+        <p>&copy; 2023</p>
+        <p>Designed by Jeremy McKeegan and his cat, Hank</p>
+    </footer>
+</body>
 
 </html>
