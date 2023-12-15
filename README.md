@@ -1,20 +1,15 @@
-# <Your-Project-Title>
+# Jeremy McKeegan's Portfolio
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This portfolio is meant to be a collecting point for the projects that I have worked on, and a repository for information about me. The navigation links at the top will bring you to each of the corresponding sections, including an About Me section, portfolio sections, and a Contact Me section. By clicking on each of the portfolio items, it should take you to the corresponding application, however, I do not have that many applications so all of them just redirect to Github. Also, because I'm not yet proficient in Javascript, the Contact Me section has three text boxes but the page has no way of reading or sending the information typed into the boxes.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
+## Challenges and Lessons
 
 ## License
 
 MIT License     
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Badges
 
